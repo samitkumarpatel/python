@@ -1,0 +1,12 @@
+import requests;
+
+ def call_api(api_url,u,p) :
+    r = requests.get(api_url, auth=(u, p))
+    print(r.status_code)
+    print(r.headers['content-type'])
+    print(r.text)
+    print(r.json)
+
+ if __name__ == "__main__":
+    call_api('https://api.github.com/user', 'samitkumarpatel@gmail.com', 'xxxxxxx');
+
