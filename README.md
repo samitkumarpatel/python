@@ -10,8 +10,8 @@ type('hello') // str
 - uc
 
 ## 00-Variable
-To store a variable in computer memory
-
+- To store a variable in computer memory
+- Reserver variable are can't be use as variable like for, while , break and etc ..
 ```python
 price = 10
 print(price) // 10
@@ -67,11 +67,12 @@ course[0:3] // pyt
 course[1:] // ython for begineer
 
 //Formatted String
-firstName = 'John'
-lastName = 'Smith'
-message = firstName+'['+lastName+'] is a legend'
+first_name = 'John'
+last_name = 'Smith'
+message = first_name+'['+last_name+'] is a legend'
 
-msg=f'{firstName} [{lastName}] is a coder' //formatted string
+msg=f'{first_name} [{last_name}] is a coder' //formatted string
+print(f"The calculation of 3 * 6 is : {3*6}")
 
 //string supported methods
 course = 'Python for Begineers'
