@@ -111,7 +111,77 @@ elif is_cold:
 else:
    print("It's a lovely day")
 print("Enjoy your day")
+
+## Logical-Operator
+# and: both condition should be True
+# or: any one is True is True
+
+has_high_income = True
+has_good_credit = True
+if has_high_income and has_good_credit:
+  print("Eligable for Loan")
+  
+if has_high_income or has_good_credit:
+  print("Eligable for Loan")
+  
+## Comparision-Operator
+temperature = 30
+if temperature > 30 :
+   print("It's a Hot day")
+elseif temperature < 30:
+   print("It's a Hot day")
+else:
+  print("it's a good day")
+  
 ```
+## 06-Looping
+
+run block of code multiple time
+```python
+# while loop
+i = 1
+while i <=5:
+  print(i)
+  i = i +1 
+print("Done!")
+
+# for loop
+//for loop with string
+for item in 'Python':
+  print(item)
+  
+//for loop with list
+for item in [1,2,3,4]:
+  print(item)
+
+// with range() builtin method
+for item in range(10):
+  print(item)
+
+for item in range(5,10):
+  print(item) //5 6 7 8 9
+  
+for item in range(5,10, 2):
+  print(item) //5 7 9
+  
+//Nested foor loop (adding one loop inside another loop)
+for x in range(4):
+  for y in range(3):
+      print(f'({x},{y})')
+
+```
+## 07-List
+```python
+names = ["a","b","c"]
+print(names)
+print(names[0]) // a
+print(names[-1]) // c
+print(names[1:]) // b c
+names[0] = "samit"
+print(names[0]) // samit
+```
+
+
 
 ## uc
 ```python
