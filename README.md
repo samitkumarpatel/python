@@ -2,6 +2,7 @@
 
 ## Tips:
 - type(<input>) : show the datatype of a <input>
+- dir(<module_or_classname>) : show all the method and property to be used.
 ```
 type(10) // int
 type('hello') // str
